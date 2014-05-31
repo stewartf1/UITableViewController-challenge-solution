@@ -14,13 +14,13 @@
 		C4FFE424193A2512009BB5E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFE423193A2512009BB5E7 /* main.m */; };
 		C4FFE428193A2512009BB5E7 /* FWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFE427193A2512009BB5E7 /* FWSAppDelegate.m */; };
 		C4FFE42B193A2512009BB5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FFE429193A2512009BB5E7 /* Main.storyboard */; };
-		C4FFE42E193A2512009BB5E7 /* FWSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFE42D193A2512009BB5E7 /* FWSViewController.m */; };
 		C4FFE430193A2512009BB5E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FFE42F193A2512009BB5E7 /* Images.xcassets */; };
 		C4FFE437193A2512009BB5E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FFE436193A2512009BB5E7 /* XCTest.framework */; };
 		C4FFE438193A2512009BB5E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FFE417193A2512009BB5E7 /* Foundation.framework */; };
 		C4FFE439193A2512009BB5E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FFE41B193A2512009BB5E7 /* UIKit.framework */; };
 		C4FFE441193A2512009BB5E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4FFE43F193A2512009BB5E7 /* InfoPlist.strings */; };
 		C4FFE443193A2512009BB5E7 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFE442193A2512009BB5E7 /* UITableViewController_Challenge_SolutionTests.m */; };
+		C4FFE44E193A3D68009BB5E7 /* FWSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFE44D193A3D68009BB5E7 /* FWSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		C4FFE426193A2512009BB5E7 /* FWSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWSAppDelegate.h; sourceTree = "<group>"; };
 		C4FFE427193A2512009BB5E7 /* FWSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWSAppDelegate.m; sourceTree = "<group>"; };
 		C4FFE42A193A2512009BB5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4FFE42C193A2512009BB5E7 /* FWSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWSViewController.h; sourceTree = "<group>"; };
-		C4FFE42D193A2512009BB5E7 /* FWSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWSViewController.m; sourceTree = "<group>"; };
 		C4FFE42F193A2512009BB5E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C4FFE435193A2512009BB5E7 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FFE436193A2512009BB5E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C4FFE43E193A2512009BB5E7 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		C4FFE440193A2512009BB5E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4FFE442193A2512009BB5E7 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		C4FFE44C193A3D68009BB5E7 /* FWSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FWSTableViewController.h; path = ../FWSTableViewController.h; sourceTree = "<group>"; };
+		C4FFE44D193A3D68009BB5E7 /* FWSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FWSTableViewController.m; path = ../FWSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				C4FFE426193A2512009BB5E7 /* FWSAppDelegate.h */,
 				C4FFE427193A2512009BB5E7 /* FWSAppDelegate.m */,
 				C4FFE429193A2512009BB5E7 /* Main.storyboard */,
-				C4FFE42C193A2512009BB5E7 /* FWSViewController.h */,
-				C4FFE42D193A2512009BB5E7 /* FWSViewController.m */,
+				C4FFE44C193A3D68009BB5E7 /* FWSTableViewController.h */,
+				C4FFE44D193A3D68009BB5E7 /* FWSTableViewController.m */,
 				C4FFE42F193A2512009BB5E7 /* Images.xcassets */,
 				C4FFE41E193A2512009BB5E7 /* Supporting Files */,
 			);
@@ -249,9 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4FFE42E193A2512009BB5E7 /* FWSViewController.m in Sources */,
 				C4FFE424193A2512009BB5E7 /* main.m in Sources */,
 				C4FFE428193A2512009BB5E7 /* FWSAppDelegate.m in Sources */,
+				C4FFE44E193A3D68009BB5E7 /* FWSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
